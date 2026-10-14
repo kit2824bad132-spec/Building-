@@ -1,0 +1,373 @@
+{
+  "admins": [
+    {
+      "id": 1,
+      "created_at": null,
+      "full_name": "Er. Saravanan B.E. (Founder & MD)",
+      "email": "admin@saravananbuilders.com",
+      "password_hash": "$2a$10$EstgfiLiESEJU9OA0Xn8u.G/rVmCUApqwtUQSybr26eLQjine34Se",
+      "role": null,
+      "updated_at": null
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "created_at": null,
+      "full_name": "Karthik Ramanathan",
+      "email": "karthik@example.com",
+      "phone": "+91 97890 54321",
+      "password_hash": "$2a$10$ydw9l5JdCg6fgU68cjRwtugVgC517n5ry43WBe56lJZWONOU10Xzm",
+      "address": "Plot 42, Green Avenue, Mogappair, Chennai",
+      "updated_at": null
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "created_at": "2026-10-14T04:53:57.091Z"
+    },
+    {
+      "id": 2,
+      "created_at": "2026-10-14T04:53:57.104Z"
+    },
+    {
+      "id": 3,
+      "created_at": "2026-10-14T04:53:57.112Z"
+    }
+  ],
+  "project_images": [
+    {
+      "id": 1,
+      "created_at": "2026-10-14T04:53:57.092Z",
+      "project_id": 1,
+      "image_url": "/uploads/hero_modern_villa.jpg",
+      "caption": "Front Elevation & Landscaped Driveway",
+      "display_order": 0
+    },
+    {
+      "id": 2,
+      "created_at": "2026-10-14T04:53:57.093Z",
+      "project_id": 1,
+      "image_url": "/uploads/duplex_house.jpg",
+      "caption": "Evening Lighting & Double Height Glazing",
+      "display_order": 1
+    },
+    {
+      "id": 3,
+      "created_at": "2026-10-14T04:53:57.105Z",
+      "project_id": 2,
+      "image_url": "/uploads/duplex_house.jpg",
+      "caption": "Full Twilight Elevation with Warm LEDs",
+      "display_order": 0
+    },
+    {
+      "id": 4,
+      "created_at": "2026-10-14T04:53:57.113Z",
+      "project_id": 3,
+      "image_url": "/uploads/construction_site.jpg",
+      "caption": "Active Site Structural Columns & Masonry Work",
+      "display_order": 0
+    }
+  ],
+  "enquiries": [
+    {
+      "id": 1,
+      "created_at": "2026-10-14T04:53:57.181Z"
+    }
+  ],
+  "customer_projects": [
+    {
+      "id": 1,
+      "created_at": "2026-10-14T04:53:57.180Z",
+      "customer_id": 1,
+      "project_id": 3,
+      "notes": "Custom 3BHK residential home tailored with North-East entrance and solar conduit lines.",
+      "assigned_at": null
+    }
+  ],
+  "construction_milestones": [
+    {
+      "id": 1,
+      "created_at": null,
+      "project_id": 1,
+      "stage_name": "Planning and Architectural Design",
+      "stage_order": 1,
+      "status": "Completed",
+      "completed_at": "2025-02-15",
+      "remarks": "Inspected and certified by Er. Saravanan",
+      "updated_at": null
+    },
+    {
+      "id": 2,
+      "created_at": null,
+      "project_id": 1,
+      "stage_name": "Foundation & Earthwork",
+      "stage_order": 2,
+      "status": "Completed",
+      "completed_at": "2025-02-15",
+      "remarks": "Inspected and certified by Er. Saravanan",
+      "updated_at": null
+    },
+    {
+      "id": 3,
+      "created_at": null,
+      "project_id": 1,
+      "stage_name": "RCC Structural Frame Work",
+      "stage_order": 3,
+      "status": "Completed",
+      "completed_at": "2025-02-15",
+      "remarks": "Inspected and certified by Er. Saravanan",
+      "updated_at": null
+    },
+    {
+      "id": 4,
+      "created_at": null,
+      "project_id": 1,
+      "stage_name": "Brickwork & Masonry",
+      "stage_order": 4,
+      "status": "Completed",
+      "completed_at": "2025-02-15",
+      "remarks": "Inspected and certified by Er. Saravanan",
+      "updated_at": null
+    },
+    {
+      "id": 5,
+      "created_at": null,
+      "project_id": 1,
+      "stage_name": "Electrical, Plumbing & Conduit Work",
+      "stage_order": 5,
+      "status": "Completed",
+      "completed_at": "2025-02-15",
+      "remarks": "Inspected and certified by Er. Saravanan",
+      "updated_at": null
+    },
+    {
+      "id": 6,
+      "created_at": null,
+      "project_id": 1,
+      "stage_name": "Plastering & Weathering Course",
+      "stage_order": 6,
+      "status": "Completed",
+      "completed_at": "2025-02-15",
+      "remarks": "Inspected and certified by Er. Saravanan",
+      "updated_at": null
+    },
+    {
+      "id": 7,
+      "created_at": null,
+      "project_id": 1,
+      "stage_name": "Flooring, Tiling & Wall Painting",
+      "stage_order": 7,
+      "status": "Completed",
+      "completed_at": "2025-02-15",
+      "remarks": "Inspected and certified by Er. Saravanan",
+      "updated_at": null
+    },
+    {
+      "id": 8,
+      "created_at": null,
+      "project_id": 1,
+      "stage_name": "Final Inspection & Key Handover",
+      "stage_order": 8,
+      "status": "Completed",
+      "completed_at": "2025-02-15",
+      "remarks": "Inspected and certified by Er. Saravanan",
+      "updated_at": null
+    },
+    {
+      "id": 9,
+      "created_at": null,
+      "project_id": 2,
+      "stage_name": "Planning and Architectural Design",
+      "stage_order": 1,
+      "status": "Completed",
+      "completed_at": "2025-04-20",
+      "remarks": "Inspected and certified by Er. Saravanan",
+      "updated_at": null
+    },
+    {
+      "id": 10,
+      "created_at": null,
+      "project_id": 2,
+      "stage_name": "Foundation & Earthwork",
+      "stage_order": 2,
+      "status": "Completed",
+      "completed_at": "2025-04-20",
+      "remarks": "Inspected and certified by Er. Saravanan",
+      "updated_at": null
+    },
+    {
+      "id": 11,
+      "created_at": null,
+      "project_id": 2,
+      "stage_name": "RCC Structural Frame Work",
+      "stage_order": 3,
+      "status": "Completed",
+      "completed_at": "2025-04-20",
+      "remarks": "Inspected and certified by Er. Saravanan",
+      "updated_at": null
+    },
+    {
+      "id": 12,
+      "created_at": null,
+      "project_id": 2,
+      "stage_name": "Brickwork & Masonry",
+      "stage_order": 4,
+      "status": "Completed",
+      "completed_at": "2025-04-20",
+      "remarks": "Inspected and certified by Er. Saravanan",
+      "updated_at": null
+    },
+    {
+      "id": 13,
+      "created_at": null,
+      "project_id": 2,
+      "stage_name": "Electrical, Plumbing & Conduit Work",
+      "stage_order": 5,
+      "status": "Completed",
+      "completed_at": "2025-04-20",
+      "remarks": "Inspected and certified by Er. Saravanan",
+      "updated_at": null
+    },
+    {
+      "id": 14,
+      "created_at": null,
+      "project_id": 2,
+      "stage_name": "Plastering & Weathering Course",
+      "stage_order": 6,
+      "status": "Completed",
+      "completed_at": "2025-04-20",
+      "remarks": "Inspected and certified by Er. Saravanan",
+      "updated_at": null
+    },
+    {
+      "id": 15,
+      "created_at": null,
+      "project_id": 2,
+      "stage_name": "Flooring, Tiling & Wall Painting",
+      "stage_order": 7,
+      "status": "Completed",
+      "completed_at": "2025-04-20",
+      "remarks": "Inspected and certified by Er. Saravanan",
+      "updated_at": null
+    },
+    {
+      "id": 16,
+      "created_at": null,
+      "project_id": 2,
+      "stage_name": "Final Inspection & Key Handover",
+      "stage_order": 8,
+      "status": "Completed",
+      "completed_at": "2025-04-20",
+      "remarks": "Inspected and certified by Er. Saravanan",
+      "updated_at": null
+    },
+    {
+      "id": 17,
+      "created_at": null,
+      "project_id": 3,
+      "stage_name": "Planning and Architectural Design",
+      "stage_order": 1,
+      "status": "Completed",
+      "completed_at": "2025-11-15",
+      "remarks": "Inspected and certified by Er. Saravanan",
+      "updated_at": null
+    },
+    {
+      "id": 18,
+      "created_at": null,
+      "project_id": 3,
+      "stage_name": "Foundation & Earthwork",
+      "stage_order": 2,
+      "status": "Completed",
+      "completed_at": "2025-11-15",
+      "remarks": "Inspected and certified by Er. Saravanan",
+      "updated_at": null
+    },
+    {
+      "id": 19,
+      "created_at": null,
+      "project_id": 3,
+      "stage_name": "RCC Structural Frame Work",
+      "stage_order": 3,
+      "status": "In Progress",
+      "completed_at": null,
+      "remarks": null,
+      "updated_at": null
+    },
+    {
+      "id": 20,
+      "created_at": null,
+      "project_id": 3,
+      "stage_name": "Brickwork & Masonry",
+      "stage_order": 4,
+      "status": "Pending",
+      "completed_at": null,
+      "remarks": null,
+      "updated_at": null
+    },
+    {
+      "id": 21,
+      "created_at": null,
+      "project_id": 3,
+      "stage_name": "Electrical, Plumbing & Conduit Work",
+      "stage_order": 5,
+      "status": "Pending",
+      "completed_at": null,
+      "remarks": null,
+      "updated_at": null
+    },
+    {
+      "id": 22,
+      "created_at": null,
+      "project_id": 3,
+      "stage_name": "Plastering & Weathering Course",
+      "stage_order": 6,
+      "status": "Pending",
+      "completed_at": null,
+      "remarks": null,
+      "updated_at": null
+    },
+    {
+      "id": 23,
+      "created_at": null,
+      "project_id": 3,
+      "stage_name": "Flooring, Tiling & Wall Painting",
+      "stage_order": 7,
+      "status": "Pending",
+      "completed_at": null,
+      "remarks": null,
+      "updated_at": null
+    },
+    {
+      "id": 24,
+      "created_at": null,
+      "project_id": 3,
+      "stage_name": "Final Inspection & Key Handover",
+      "stage_order": 8,
+      "status": "Pending",
+      "completed_at": null,
+      "remarks": null,
+      "updated_at": null
+    }
+  ],
+  "progress_updates": [
+    {
+      "id": 1,
+      "created_at": "2026-10-14T04:53:57.180Z"
+    }
+  ],
+  "construction_cost_settings": [
+    {
+      "id": 1,
+      "created_at": "2026-10-14T04:53:57.090Z",
+      "quality_tier": "Basic",
+      "tier_title": "Essential Residential",
+      "price_per_sqft": 1850,
+      "description": "Sturdy, practical construction with quality brickwork, standard vitrified tiles, and essential branded fittings.",
+      "specifications": "[\"Standard Red Brick Masonry\",\"ISI Grade TMT Fe-550 Steel & OPC Cement\",\"Standard Vitrified Flooring (2x2 ft)\",\"Anchor / GM Electrical Switches\",\"Parryware / Cera Standard Sanitaryware\",\"Flush Doors with Teak wood frame for Main door\",\"Asian Paints Tractor Emulsion\"]"
+    }
+  ],
+  "company_settings": []
+}
