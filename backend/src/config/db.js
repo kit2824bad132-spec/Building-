@@ -52,7 +52,11 @@ function loadLocalStore() {
 
 function saveLocalStore() {
   if (localStore) {
-    fs.writeFileSync(localDbFile, JSON.stringify(localStore, null, 2), 'utf8');
+    try {
+      fs.writeFileSync(localDbFile, JSON.stringify(localStore, null, 2), 'utf8');
+    } catch (err) {
+      console.warn('[LocalStore Warning] Could not persist local_db.json to disk:', err.message);
+    }
   }
 }
 

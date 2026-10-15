@@ -5,9 +5,13 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
+    "build": "echo 'Backend build successful'",
     "dev": "node src/server.js",
     "seed": "node src/scripts/seed.js",
     "create-admin": "node src/scripts/create-admin.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "keywords": [
     "construction",

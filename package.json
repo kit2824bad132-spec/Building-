@@ -1,0 +1,15 @@
+{
+  "name": "saravanan-builders-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Root orchestrator for Saravanan Builders full-stack project",
+  "scripts": {
+    "start": "npm --prefix backend start",
+    "build": "npm --prefix backend install",
+    "install:backend": "npm --prefix backend install",
+    "install:frontend": "npm --prefix frontend install"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

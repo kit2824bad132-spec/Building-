@@ -1,7 +1,10 @@
 import axios from 'axios';
 
+// Support custom API base URL for production deployment (e.g. Render backend URL)
+const baseURL = import.meta.env.VITE_API_BASE_URL || '/api';
+
 const api = axios.create({
-  baseURL: '/api',
+  baseURL,
   headers: {
     'Content-Type': 'application/json'
   }
